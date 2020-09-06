@@ -9,7 +9,7 @@ exports.create = (req, res) => {
 	}
 	// Create a Menu
 	const menu = new Menu({
-		tittle: req.body.tittle,
+		title: req.body.title,
 		subtitle: req.body.subtitle,
 		urlimage: req.body.urlimage,
 		parentcode: req.body.parentcode,
